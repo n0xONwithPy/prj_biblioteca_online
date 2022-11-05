@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 05-Nov-2022 às 17:15
+-- Tempo de geração: 05-Nov-2022 às 20:33
 -- Versão do servidor: 10.4.25-MariaDB
 -- versão do PHP: 8.1.10
 
@@ -42,7 +42,7 @@ CREATE TABLE `tbl_livros_online` (
 
 INSERT INTO `tbl_livros_online` (`id`, `nome_livro`, `autor_livro`, `ano_livro`, `sinopse_livro`, `categoria_livro`) VALUES
 (1, 'Harry Potter', 'JK Rollings', 1997, 'Hogwarts nunca mais sera a mesma.', 'Aventura'),
-(2, 'Animais Fantasticos', 'JK Rollings', 1997, 'New Scamander em busca das criaturas magicas mais sensacionais.', 'Aventura');
+(2, 'Animais Fantasticos', 'JK Rowllin', 1997, 'New Scamander em busca das criaturas magicas mais sensacionais.', 'Aventura');
 
 --
 -- Índices para tabelas despejadas
@@ -62,7 +62,7 @@ ALTER TABLE `tbl_livros_online`
 -- AUTO_INCREMENT de tabela `tbl_livros_online`
 --
 ALTER TABLE `tbl_livros_online`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Chave de identificação', AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Chave de identificação', AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
